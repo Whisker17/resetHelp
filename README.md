@@ -30,7 +30,7 @@ sudo apt install privoxy
 sudo vim /etc/privoxy/config
 在最后加上
 forward-socks5 / 127.0.0.1:1080 . 
-listen-address 127.0.0.1:8080 （默认应该就是这个）
+listen-address 127.0.0.1:8118 （默认应该就是这个）
 配置完重启服务
 sudo /etc/init.d/privoxy restart
 ```
